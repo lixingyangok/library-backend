@@ -2,6 +2,7 @@ node_modules
 dist
 dist-ssr
 logs
+run
 
 # Editor directories and files
 .vscode/*
