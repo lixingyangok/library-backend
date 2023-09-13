@@ -6,7 +6,6 @@
  * @Description: 
  */
 // app/router.js
-<<<<<<< HEAD
 // module.exports = (app) => {
 //     const { router, controller } = app;
 //     router.get('/', controller.home.index);
@@ -18,9 +17,3 @@ module.exports = (app) => {
     router.get('/', controller.home.index);
     router.get('/news', controller.home.news);
 };
-=======
-module.exports = (app) => {
-    const { router, controller } = app;
-    router.get('/', controller.home.index);
-};
->>>>>>> 643761f612109bad15991ca9420c71193ac95448
