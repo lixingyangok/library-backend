@@ -1,0 +1,53 @@
+{
+  "name": "my-library-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "egg-bin dev --port=7788",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "egg": "^3.17.4"
+  },
+  "devDependencies": {
+    "egg-bin": "^6.4.2"
+  },
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Egg Debug",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "dev",
+        "--",
+        "--inspect-brk"
+      ],
+      "console": "integratedTerminal",
+      "restart": true,
+      "protocol": "auto",
+      "port": 9229,
+      "autoAttachChildProcesses": true
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Egg Test",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "test-local",
+        "--",
+        "--inspect-brk"
+      ],
+      "protocol": "auto",
+      "port": 5678,
+      "autoAttachChildProcesses": true
+    }
+  ]
+}

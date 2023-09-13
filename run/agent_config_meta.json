@@ -1,0 +1,280 @@
+{
+  "session": {
+    "maxAge": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-session@3.3.0\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-session@3.3.0\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-session@3.3.0\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-session@3.3.0\\node_modules\\egg-session\\config\\config.default.js",
+    "logValue": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-session@3.3.0\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-security@3.1.0\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-security@3.1.0\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-security@3.1.0\\node_modules\\egg-security\\config\\config.default.js",
+    "csrf": {
+      "enable": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-security@3.1.0\\node_modules\\egg-security\\config\\config.default.js",
+      "type": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-security@3.1.0\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-security@3.1.0\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-security@3.1.0\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-security@3.1.0\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-security@3.1.0\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-security@3.1.0\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-security@3.1.0\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-security@3.1.0\\node_modules\\egg-security\\config\\config.default.js",
+      "supportedRequests": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-security@3.1.0\\node_modules\\egg-security\\config\\config.default.js",
+      "refererWhiteList": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-security@3.1.0\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xframe": {
+      "enable": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-security@3.1.0\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-security@3.1.0\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-security@3.1.0\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-security@3.1.0\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-security@3.1.0\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-security@3.1.0\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-security@3.1.0\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-security@3.1.0\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-security@3.1.0\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-security@3.1.0\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-security@3.1.0\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-security@3.1.0\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-security@3.1.0\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-security@3.1.0\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-security@3.1.0\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-security@3.1.0\\node_modules\\egg-security\\config\\config.default.js",
+      "ipExceptionList": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-security@3.1.0\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-security@3.1.0\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-security@3.1.0\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-jsonp@2.0.0\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-jsonp@2.0.0\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-jsonp@2.0.0\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-onerror@2.2.0\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-onerror@2.2.0\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-onerror@2.2.0\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-i18n@2.1.1\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-i18n@2.1.1\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-i18n@2.1.1\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-i18n@2.1.1\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieDomain": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-i18n@2.1.1\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-i18n@2.1.1\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-watcher@3.1.1\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-watcher@3.1.1\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-watcher@3.1.1\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-schedule@4.0.0\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-schedule@4.0.0\\node_modules\\egg-schedule\\config\\config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-schedule@4.0.0\\node_modules\\egg-schedule\\config\\config.default.js"
+  },
+  "multipart": {
+    "mode": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-multipart@3.3.0\\node_modules\\egg-multipart\\config\\config.default.js",
+    "autoFields": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-multipart@3.3.0\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-multipart@3.3.0\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultParamCharset": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-multipart@3.3.0\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-multipart@3.3.0\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-multipart@3.3.0\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-multipart@3.3.0\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-multipart@3.3.0\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-multipart@3.3.0\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-multipart@3.3.0\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-multipart@3.3.0\\node_modules\\egg-multipart\\config\\config.default.js",
+    "allowArrayField": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-multipart@3.3.0\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-multipart@3.3.0\\node_modules\\egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-multipart@3.3.0\\node_modules\\egg-multipart\\config\\config.default.js",
+      "disable": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-multipart@3.3.0\\node_modules\\egg-multipart\\config\\config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-development@2.7.0\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-development@2.7.0\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-development@2.7.0\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-development@2.7.0\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-development@2.7.0\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideIgnore": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-development@2.7.0\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-logrotator@3.1.0\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-logrotator@3.1.0\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-logrotator@3.1.0\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-logrotator@3.1.0\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-logrotator@3.1.0\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-logrotator@3.1.0\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-logrotator@3.1.0\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-static@2.3.1\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-static@2.3.1\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-static@2.3.1\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-static@2.3.1\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-static@2.3.1\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-static@2.3.1\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "view": {
+    "root": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-view@2.1.4\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-view@2.1.4\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-view@2.1.4\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-view@2.1.4\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg-view@2.1.4\\node_modules\\egg-view\\config\\config.default.js"
+  },
+  "env": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+  "name": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+  "keys": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+  "cookies": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+  "maxIpsCount": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+  "maxProxyCount": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+    "version": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+    "description": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+    "main": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+    "scripts": {
+      "dev": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+      "test": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js"
+    },
+    "keywords": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+    "author": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+    "license": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+    "dependencies": {
+      "egg": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js"
+    },
+    "configurations": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js"
+  },
+  "baseDir": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+    "timing": {
+      "slowBootActionMinDuration": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "confusedConfigurations": {
+    "bodyparser": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+    "cacheControl": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+    "textLimit": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+    "strict": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+      "depth": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js"
+    },
+    "onerror": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js"
+  },
+  "logger": {
+    "dir": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+    "env": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+    "level": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+    "enablePerformanceTimer": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+    "enableFastContextLogger": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js"
+    },
+    "useHttpClientNext": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js"
+  },
+  "meta": {
+    "enable": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+    "logging": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+  "serverTimeout": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+      "port": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js"
+  },
+  "onClientError": "D:\\github\\my-library-backend\\node_modules\\.pnpm\\egg@3.17.4\\node_modules\\egg\\config\\config.default.js"
+}
